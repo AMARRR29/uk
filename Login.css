@@ -1,0 +1,86 @@
+* body{
+	font-family: Inter;
+	background: url(img/Background.png);
+}
+
+.kalimat_logo{
+    font-size: 23px;
+    font-family: Inter;
+    color: black;
+}
+
+.tulisan_signin{
+    color: black;
+    position: absolute;
+    font-family: Inter;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 65px;
+}
+.kotak_signup{
+    text-align: center;
+	width: 627px;
+    height: 734px;
+    top: 150px;
+    left: 720px;
+	background: white;
+    position: absolute;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.kotak_login{
+    text-align: center;
+	width: 542px;
+    height: 669px;
+	background: white;
+    top: 193px;
+    left: 1250px;
+    position: absolute;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+ .form_login{
+	box-sizing : border-box;
+	width: 75%;
+	padding: 3%;
+    margin: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+ 
+.tombol_login{
+	background: rgba(0,71,255,0.6000000238418579);
+	color: white;
+	width: 197px;
+    height: 52px;
+    margin-top: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+
+.join{
+    width: 706px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 448px;
+    left: 125px;
+    font-family: Inter;
+    font-weight: Extra Bold Italic;
+    font-size: 48px;
+    text-align: center;
+  }
+
+.tulisan_biru{
+    color: rgba(0,101,255,1);
+    font-family: Teko;
+    font-weight: Regular;
+}

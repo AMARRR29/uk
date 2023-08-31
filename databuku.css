@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: Teko;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url('img/dashboard.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+a {
+  color: black;
+}
+.container {
+  position:relative;
+  min-height: 100%;
+  overflow: hidden;
+}
+.nav {
+  width: 100%;
+  height: 162px;
+  background: rgba(196,196,196,1);
+  opacity: 1;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  position: fixed;
+  padding: 0;
+}
+.nav h1 {
+  float: left;
+  font-size: 100px;
+  padding-left: 50px;
+  padding-top: 20px;
+  color: A19E9E;
+}
+.nav h1 :active{
+  float: left;
+  font-size: 100px;
+  padding-left: 50px;
+  padding-top: 20px;
+  color: A19E9E;
+}
+.nav h1 :focus{
+  float: left;
+  font-size: 100px;
+  padding-left: 50px;
+  padding-top: 20px;
+  color: A19E9E;
+}
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav ul li {
+  float: right;
+}
+.nav ul li a{
+  display: block;
+  position: relative;
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  padding: 50px;
+}
+.nav a:hover {
+  color: #fff;
+}
+
+.tanggal1{
+  position: static;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 0;
+}
+.tanggal2 {
+    color: rgba(0,0,0,1);
+    font-family: Teko;
+    font-weight: Light;
+    font-size: 50px;
+    border: 4px solid black;
+    padding: 15px 10px;
+    border-radius: 20px;
+    background-color: rgb(226, 201, 116) ;;
+    text-align: center;
+}
+.side {
+  height: 100px;
+  margin-top: 162px;
+}
+.sidebar {
+  position: fixed;
+  left: 0;
+  width: 15%;
+  height: 100%;
+  background:rgba(154,112,73,1);
+}
+.sidebar header{
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  width: 100%;
+  line-height: 70px;
+  background:rgb(226, 201, 116);
+  user-select: none;
+  font-family: Teko;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.sidebar a{
+  display: block;
+  width: 100%;
+  font-size: 60px;
+  line-height: 80px;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  border-top: 1px black;
+  border-bottom: 2px black;
+  transition: 0.5s;
+}
+.sidebar a.aktif {
+  background: rgb(226, 201, 116);
+}
+.sidebar a:hover {
+  background:rgb(226, 201, 116) ;
+}
+.main {
+  height: auto;
+  width: auto;
+  text-align: center;
+  margin-left: 100px;
+}
+.sub-main {
+  position: static;
+  padding-top: 80px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sub-main h1 {
+  margin-left: 120px;
+}
+.tambah-buku {
+  display: flex;
+  position: static;
+  float: right;
+  font-size: 40px;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+}
+.tambah-buku a{
+  display: block;
+  box-sizing: border-box;
+  background: #fff;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-right: auto;
+}
+
+.tambah-buku a:hover{
+  background: rgb(196, 196, 196);
+}
+
+.tabel-dabu {
+  position: static;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  text-align: center;
+  background-color: #fff;
+  border-collapse: collapse;
+}
+td, th {
+  border: 1px solid black;
+  padding: 5px;
+}
+th {
+background: rgba(154,112,73,1);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.tanggal {
+  width: 17%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 40px;
+  left: 1000px;
+  font-family: Teko;
+  font-weight: Light;
+  font-size: 50px;
+  padding: 5px;
+  border: 4px solid black;
+  border-radius: 20px;
+  background-color: rgb(226, 201, 116) ;;
+  text-align: center;
+}
+
+.tanggal:hover {
+  background-color: rgba(154,112,73,1);
+}
+
+.user {
+  width: 32px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  left: 1730px;
+  font-family: Teko;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
